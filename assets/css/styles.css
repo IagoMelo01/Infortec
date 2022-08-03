@@ -1,0 +1,204 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #071828;
+}
+
+header {
+  padding: 20px 15px;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 590px) {
+  .reverse {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    list-style: none;
+    padding: 8px;
+  }
+  .column-row{
+      display: flex;
+      justify-content: space-between;
+  }
+}
+
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+.text-center{
+  text-align: center;
+}
+
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1.5em;
+  font-weight: normal;
+}
+h3{
+  font-size: 1em;
+}
+h4{
+  font-size: 0.8em;
+}
+
+hr{
+  height: 2px;
+  border: none;
+  border-radius: 3px;
+}
+
+  .width-25{
+    width: 25%;
+  }
+
+  .width-50{
+    width: 50%;
+  }
+
+  .width-75{
+    width: 75%;
+  }
+
+  .width-100{
+    width: 100%;
+  }
+
+  .justify-center{
+    justify-content: center;
+  }
+
+  .dark-blue{
+    color: #071828;
+  }
+
+  .light-blue{
+    color: #2a7e95;
+  }
+
+  .green{
+    color: #34b060;
+  }
+
+  .gradient-left-blue{
+    background: linear-gradient(to right, #2256be 5%, #3bd041 100%);
+  }
+
+  .gradient-right-blue{
+    background: linear-gradient(to left, #2256be 5%, #3bd041 100%);
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .left{
+    text-align: left;
+  }
+
+  .text{
+    padding: 5px;
+    font-weight: 600;
+  }
+
+  .card{
+    width: 20rem;
+    display: flex;
+  }
+
+  .card-body{
+    background-color: white;
+    margin-left: 5px;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .gbPlano{
+    padding: 10px;
+    border-radius: 10px;
+    width: 15rem;
+    position:absolute;
+  }
+
+  .gbPlano h1{
+    font-weight: 500;
+    color: #000;
+  }
+
+  .plano{
+    width: 5.75rem;
+    text-align: end;
+    margin-top: 10px;
+    margin-left: 14.25rem;
+    padding: 5px;
+    background-color: white;
+    border-radius: 0 10px 0 0;
+  }
+
+  .button{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 5px;
+  }
+
+  .contact, .questions{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    align-items:start;
+    text-align:start;
+  }
+
+  .card-question{
+    border-radius: 5px;
+    text-align: left;
+    padding:5px 5px;
+    margin: 3px 3px;
+  }
+
+  .margin-left-10{
+    margin-left: 10px;
+  }
+  
+  .img-icon{
+    height: 3em;
+    width: 3em;
+    margin:5px;
+  }
+
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 0.8em;
+}
