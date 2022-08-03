@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infortec - Soluções em Tecnologia</title>
+  </head>
+  <body>
+    <header class="row">
+      <img src="" alt="Logo" class="img-logo" />
+
+      <div class="reverse">
+        <button>Área Cliente</button>
+        <ul>
+          <li>Empresa</li>
+          <li>Planos</li>
+          <li>Benefícios</li>
+          <li>Perguntas Frequentes</li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="home">
+        <div class="slide center">
+            <div class="slide-One text-center" style="display: none;">
+                <h1>Internet via Satélite</h1>
+                <h2>Conectando o mundo com a tecnologia.</h2>
+                <button>Ver planos de internet.</button>
+                <div class="row center">
+                  <input type="text" class="input-form" />
+                  <button>Pedir Visita</button>
+                </div>
+            </div>
+            <div class="slide-Two text-center">
+                <h1>Segurança Eletrônica</h1>
+                <h2>Uma forma confiável de manter sua residência segura.</h2>
+                <button>Ver planos de segurança eletrônica.</button>
+                <div class="row center">
+                  <input type="text" class="input-form" />
+                  <button>Pedir Visita</button>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="text-center">
+            <h1>Quem somos</h1>
+            <h2>Infortec - Soluções em Tecnologia</h2>
+        </div>
+      
+        <p>
+          Somos a Infortec, uma empresa da área tecnologica com o objetivo de
+          conectar pessoas. Nossa missão é por meio da internet via satélite,
+          integrar você e sua família a tudo que hpa de novo pelo mundo. Com o
+          nosso serviço de segunrança eletrônica, vamos além e damos a você a
+          oportunidade de ter sua residência vigiada de forma confiável.
+        </p>
+        <a href=""><button>Contatos</button></a>
+      </section>
+
+      <section class="plans">
+        <div class="center text-center">
+            <div class="column">
+                <h1>Planos</h1>
+                <h2>Internet via Satélite</h2>
+                <div class="row">
+                  <!--ANTERIOR-->
+                  <button><</button>
+                  <div class="column">
+                    <div></div>
+                    <div class="row">
+                      <button>Assinar Agora</button>
+                      <button>Saiba Mais</button>
+                    </div>
+                  </div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <!--PRÓXIMO-->
+                  <button>></button>
+                </div>
+              </div>
+        </div>
+        
+      </section>
+      
+      <section class="benefit">
+        <div class="text-center">
+            <h1>Benefícios</h1>
+            <h2>Infortec - Soluções em Tecnologia</h2>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <div class="row">
+              <img src="" alt="Rápida Instalação" class="img-icon" />
+              <h3>Rápida Instalação</h3>
+            </div>
+            <p>
+              Ao nos contratar, seu contrato é rapidamente analisado para que o
+              mais rápido possível você psosa aproveitar de nossos serviços.
+            </p>
+          </div>
+          <div class="column">
+            <div class="row">
+              <img src="" alt="Internet via satélite" class="img-icon" />
+              <h3>Internet via satélite</h3>
+            </div>
+            <p>
+              Acessível e rápida instalação, com um alcançe que vai até as zonas
+              rurais ou lugares mais remotos.
+            </p>
+          </div>
+          <div class="column">
+            <div class="row">
+              <img src="" alt="Rápida Instalação" class="img-icon" />
+              <h3>Preços Acessíveis</h3>
+            </div>
+            <p>
+              Com diversos planos, você pode esclher qual deles se encaixa na
+              sua necessidade e atendendo a um preço acessível para a
+              contratação.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="column-row">
+        <section class="questions">
+          <h1>Perguntas Frequentes</h1>
+          <h2>Tudo que você precisa saber.</h2>
+          <div class="column">
+            <div class="row">
+              <h3>A pergunta frequente número um.</h3>
+              <img src="" alt="Seta para baixo" />
+            </div>
+            <h4>A resposta da pergunta frequente número 1</h4>
+          </div>
+        </section>
+        <section class="contact">
+          <h1>Nossos Contatos</h1>
+          <h2>Como falar conosco</h2>
+          <address>
+            Rua Fulano de tal, 1890, Cidade/Estado. <br />
+            <br />
+            Telefone: (38)99940-0531 <br />
+            Email.: gustavoqueiro@gmail.com
+          </address>
+          <div class="row">
+            <img src="" alt="WhatsApp" class="img-icon" />
+            <img src="" alt="Facebook" class="img-icon" />
+            <img src="" alt="Instagram" class="img-icon" />
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="center text-center">
+      Copyright&copy; 2022, Infortec - Soluções em Tecnologia <br />
+      CNPJ: 30.806.424/0001-09
+    </footer>
+
+    <style>
+      header {
+        padding: 20px 15px;
+        background-color: black;
+        color: white;
+        justify-content: space-between;
+      }
+
+      @media screen and (min-width: 590px) {
+        .reverse {
+          display: -webkit-flex; /* Safari */
+          -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+          display: flex;
+          flex-direction: row-reverse;
+        }
+        ul {
+          display: flex;
+        }
+        li {
+          list-style: none;
+          padding: 8px;
+        }
+        .column-row{
+            display: flex;
+            justify-content: space-between;
+        }
+      }
+
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .row {
+        display: flex;
+      }
+      .column {
+        display: flex;
+        flex-direction: column;
+      }
+      .center{
+        display: flex;
+        justify-content: center;
+      }
+      .text-center{
+        text-align: center;
+      }
+
+      h1{
+        font-size: 3.3vh;
+      }
+      h2{
+        font-size: 2vh;
+      }
+      h3{
+        font-size: 1.7vh;
+      }
+    </style>
+  </body>
+</html>
