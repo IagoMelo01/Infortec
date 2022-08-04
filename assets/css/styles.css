@@ -11,15 +11,17 @@ html, body {
   background-color: #071828;
 }
 
-body{
-  background-image: url("../images/homePage/Fundo.jpg") no-repeat;
-}
+
 
 header {
-  padding: 20px 15px;
+  padding: 0 15px;
+  margin-top: -3%;
   background-color: black;
   color: white;
   justify-content: space-between;
+  height: 30%;
+  position: absolute;
+  width: 100%;
 }
 
 @media screen and (min-width: 590px) {
@@ -194,6 +196,12 @@ hr {
   font-weight: 600;
 }
 
+.home{
+  background-image: url("../images/homePage/Fundo.jpg");
+  background-repeat: no-repeat;
+  padding: 33% 0;
+}
+
 .about{
   background-color: white;
   color: black;
@@ -336,7 +344,7 @@ body {
   height: fit-content;
   margin-right: 160px;
   counter-increment: gallery-cell;
-  filter:blur(2px) brightness(.7);
+  filter:blur(3px) brightness(.7);
 }
 
 .gallery-cell.is-selected {
