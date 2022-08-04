@@ -5,274 +5,283 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/flickity.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Infortec - Soluções em Tecnologia</title>
   </head>
   <body>
-    <header class="row">
-     <!-- <img src="./assets/images/logo.png" alt="Logo" class="img-logo" />
+    <header class="row align-center transparent" style="padding: 0;">
+     <img src="./assets/images/logo.png" alt="Logo" class="img-logo" />
       
-      <img src="./assets/images/menu.png" styles="display:none;"/>-->
+      <!-- <img src="./assets/images/menu.png" styles="display:none;"/> -->
 
       <div class="reverse" >
-        <button>Área Cliente</button>
+        <button class="button gradient-left-blue">Área Cliente</button>
         <ul>
-          <li>Empresa</li>
-          <li>Planos</li>
-          <li>Benefícios</li>
-          <li>Perguntas Frequentes</li>
+          <li class="align-center">Empresa</li>
+          <li class="align-center">Planos</li>
+          <li class="align-center">Benefícios</li>
+          <li class="align-center">Perguntas Frequentes</li>
         </ul>
       </div>
     </header>
 
     <main>
       <section class="home">
-        <div class="slide center">
+        <div class="slide justify-center ">
             <div class="slide-One text-center" style="display: none;">
                 <h1>Internet via Satélite</h1>
                 <h2>Conectando o mundo com a tecnologia.</h2>
                 <button>Ver planos de internet.</button>
-                <div class="row center">
+                <div class="row justify-center ">
                   <input type="text" class="input-form" />
-                  <button>Pedir Visita</button>
+                  <button class="button width-25" style="color:black">Pedir Visita</button>
                 </div>
             </div>
+
             <div class="slide-Two text-center">
                 <h1>Segurança Eletrônica</h1>
                 <h2>Uma forma confiável de manter sua residência segura.</h2>
                 <button>Ver planos de segurança eletrônica.</button>
-                <div class="row center">
+                <div class="row justify-center ">
                   <input type="text" class="input-form" />
-                  <button>Pedir Visita</button>
+                  <button class="button width-25" style="color:black">Pedir Visita</button>
                 </div>
             </div>
         </div>
       </section>
 
-      <section class="about">
-        <div class="text-center">
-            <h1>Quem somos</h1>
-            <h2>Infortec - Soluções em Tecnologia</h2>
-        </div>
-      
-        <p>
-          Somos a Infortec, uma empresa da área tecnologica com o objetivo de
-          conectar pessoas. Nossa missão é por meio da internet via satélite,
-          integrar você e sua família a tudo que hpa de novo pelo mundo. Com o
-          nosso serviço de segunrança eletrônica, vamos além e damos a você a
-          oportunidade de ter sua residência vigiada de forma confiável.
-        </p>
-        <a href=""><button>Contatos</button></a>
+      <section class="about justify-center">
+        <div class="column text-start">
+          <div class="padding-2rem" style="max-width:500px">
+    
+            <div>
+                <h1>Quem somos</h1>
+                <h2 class="gradient-text-right-blue">Infortec - Soluções em Tecnologia</h2>
+            </div>
+   
+            <p class="padding-top-bottom-1rem">
+              Somos a Infortec, uma empresa da área tecnologica com o objetivo de
+              conectar pessoas. Nossa missão é por meio da internet via satélite,
+              integrar você e sua família a tudo que hpa de novo pelo mundo. Com o
+              nosso serviço de segunrança eletrônica, vamos além e damos a você a
+              oportunidade de ter sua residência vigiada de forma confiável.
+            </p>
+  
+            <a href=""><button class="button width-25 gradient-left-blue color-white">Contatos</button></a>
+         
+          </div>
+        <div>
       </section>
 
-      <section class="plans">
-        <div class="center text-center">
-            <div class="column">
+      <section class="plans width-100">
+        <div class="justify-center text-center">
+            <div class="column width-100">
                 <h1>Planos</h1>
-                <h2>Internet via Satélite</h2>
-                <div class="row">
+                <h2 class="gradient-text-right-blue">Internet via Satélite</h2>
+                <div class=" gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
                   <!--ANTERIOR-->
-                  <button><</button>
-                  <div class="row">
-                    <div class="card column">
-                      <div class="card-header">
-                        <div class="row">
+                  <!-- <button><</button> -->
+                  <!-- <div class="row"> -->
+                    <div class="gallery-cell">
+                      <div class="card column">
+                        <div class="card-header">
+                          <div class="gbPlano gradient-left-blue">
+                            <h1>75 GB</h1> 
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <div class="plano">
+                            <h3>Plano Master</h3> 
+                          </div>
+                          <div class="row">
+                            <div class="text width-50 left dark-blue">
+                              Velocidade do plano
+                            </div>
+                            <div class="text width-50 left light-blue">
+                              20Mb de velociade de Download e 3Mb de velociadade de Upload
+                            </div>
+                          </div>
+                          <hr class="gradient-left-blue">
+                          <div class="row">
+                            <div class="text width-50 left dark-blue">
+                              Adesão
+                            </div>
+                            <div class="text width-50 left light-blue">
+                              <p>R$1100,00</p>
+                            </div>
+                          </div>
+                          <hr class="gradient-left-blue">
+                          <div class="text width-100 justify-center green">
+                            Wi-fi não Incluso
+                          </div>
+                          <hr class="gradient-left-blue">
+                          <div class="column">
+                            <div class="row width-100 justify-center" style="color: black;">
+                              <h1>R$989</h1>
+                              <h3 class="green">/mês</h3>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="column">
+                          <div class="row justify-center" style="margin: 10px 0 0 5px;">
+                            <button class="button width-50 gradient-left-blue">Assinar Agora</button>
+                            <button class="button width-50 gradient-right-blue">Saiba Mais</button>
+                          </div>
+                        </div>
+                      </div>
+                     
+                      <div class="column"></div>
+                      <div class="column"></div>
+                    </div>
+
+
+                    <!-- card 2 -->
+                    
+                    <div class="gallery-cell">
+                      <div class="card column">
+                        <div class="card-header">
                           <div class="gbPlano gradient-left-blue">
                             <h1>125 GB</h1> 
                           </div>
-                          <div class="plano green">
+                        </div>
+                        <div class="card-body">
+                          <div class="plano">
                             <h3>Plano Gold</h3> 
                           </div>
-                        </div> 
-                      </div>
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="text width-50 left dark-blue">
-                            Velocidade do plano
+                          <div class="row">
+                            <div class="text width-50 left dark-blue">
+                              Velocidade do plano
+                            </div>
+                            <div class="text width-50 left light-blue">
+                              24Mb de velociade de Download e 3Mb de velociadade de Upload
+                            </div>
                           </div>
-                          <div class="text width-50 left light-blue">
-                            24Mb de velociade de Download e 3Mb de velociadade de Upload
+                          <hr class="gradient-left-blue">
+                          <div class="row">
+                            <div class="text width-50 left dark-blue">
+                              Adesão
+                            </div>
+                            <div class="text width-50 left light-blue">
+                              <p>R$1100,00</p>
+                            </div>
+                          </div>
+                          <hr class="gradient-left-blue">
+                          <div class="text width-100 justify-center green">
+                            Wi-fi Incluso
+                          </div>
+                          <hr class="gradient-left-blue">
+                          <div class="column">
+                            <div class="row width-100 justify-center" style="color: black;">
+                              <h1>R$1200</h1>
+                              <h3 class="green">/mês</h3>
+                            </div>
                           </div>
                         </div>
-                        <hr class="gradient-left-blue">
-                        <div class="row">
-                          <div class="text width-50 left dark-blue">
-                            Adesão
-                          </div>
-                          <div class="text width-50 left light-blue">
-                            <p>R$1100,00</p>
-                          </div>
-                        </div>
-                        <hr class="gradient-left-blue">
-                        <div class="text width-100 center green">
-                          Wi-fi Incluso
-                        </div>
-                        <hr class="gradient-left-blue">
                         <div class="column">
-                          <div class="row width-100 justify-center" style="color: black;">
-                            <h1>R$1200</h1>
-                            <h3 class="green">/mês</h3>
+                          <div class="row justify-center" style="margin: 10px 0 0 5px;">
+                            <button class="button width-50 gradient-left-blue">Assinar Agora</button>
+                            <button class="button width-50 gradient-right-blue">Saiba Mais</button>
                           </div>
                         </div>
                       </div>
-                      <div class="column">
-                        <div class="row justify-center" style="margin: 10px 0 0 5px;">
-                          <button class="button width-50 gradient-left-blue">Assinar Agora</button>
-                          <button class="button width-50 gradient-right-blue">Saiba Mais</button>
-                        </div>
-                      </div>
+                     
+                      <div class="column"></div>
+                      <div class="column"></div>
                     </div>
-                   
-                    <div class="column"></div>
-                    <div class="column"></div>
-
-                    <!-- Card 2 -->
-
-                    <div class="card column">
-                      <div class="card-header">
-                        <div class="row">
-                          <div class="gbPlano gradient-left-blue">
-                            <h1>125 GB</h1> 
-                          </div>
-                          <div class="plano green">
-                            <h3>Plano Gold</h3> 
-                          </div>
-                        </div> 
-                      </div>
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="text width-50 left dark-blue">
-                            Velocidade do plano
-                          </div>
-                          <div class="text width-50 left light-blue">
-                            24Mb de velociade de Download e 3Mb de velociadade de Upload
-                          </div>
-                        </div>
-                        <hr class="gradient-left-blue">
-                        <div class="row">
-                          <div class="text width-50 left dark-blue">
-                            Adesão
-                          </div>
-                          <div class="text width-50 left light-blue">
-                            <p>R$1100,00</p>
-                          </div>
-                        </div>
-                        <hr class="gradient-left-blue">
-                        <div class="text width-100 center green">
-                          Wi-fi Incluso
-                        </div>
-                        <hr class="gradient-left-blue">
-                        <div class="column">
-                          <div class="row width-100 justify-center" style="color: black;">
-                            <h1>R$1200</h1>
-                            <h3 class="green">/mês</h3>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="column">
-                        <div class="row justify-center" style="margin: 10px 0 0 5px;">
-                          <button class="button width-50 gradient-left-blue">Assinar Agora</button>
-                          <button class="button width-50 gradient-right-blue">Saiba Mais</button>
-                        </div>
-                      </div>
-                    </div>
-                   
-                    <div class="column"></div>
-                    <div class="column"></div>
 
                     <!-- Card 3 -->
 
-                    <div class="card column">
-                      <div class="card-header">
-                        <div class="row">
+                    <div class="gallery-cell">
+                      <div class="card column">
+                        <div class="card-header">
                           <div class="gbPlano gradient-left-blue">
                             <h1>125 GB</h1> 
                           </div>
-                          <div class="plano green">
+                        </div>
+                        <div class="card-body">
+                          <div class="plano">
                             <h3>Plano Gold</h3> 
                           </div>
-                        </div> 
-                      </div>
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="text width-50 left dark-blue">
-                            Velocidade do plano
+                          <div class="row">
+                            <div class="text width-50 left dark-blue">
+                              Velocidade do plano
+                            </div>
+                            <div class="text width-50 left light-blue">
+                              24Mb de velociade de Download e 3Mb de velociadade de Upload
+                            </div>
                           </div>
-                          <div class="text width-50 left light-blue">
-                            24Mb de velociade de Download e 3Mb de velociadade de Upload
+                          <hr class="gradient-left-blue">
+                          <div class="row">
+                            <div class="text width-50 left dark-blue">
+                              Adesão
+                            </div>
+                            <div class="text width-50 left light-blue">
+                              <p>R$1100,00</p>
+                            </div>
+                          </div>
+                          <hr class="gradient-left-blue">
+                          <div class="text width-100 justify-center green">
+                            Wi-fi Incluso
+                          </div>
+                          <hr class="gradient-left-blue">
+                          <div class="column">
+                            <div class="row width-100 justify-center" style="color: black;">
+                              <h1>R$1200</h1>
+                              <h3 class="green">/mês</h3>
+                            </div>
                           </div>
                         </div>
-                        <hr class="gradient-left-blue">
-                        <div class="row">
-                          <div class="text width-50 left dark-blue">
-                            Adesão
-                          </div>
-                          <div class="text width-50 left light-blue">
-                            <p>R$1100,00</p>
-                          </div>
-                        </div>
-                        <hr class="gradient-left-blue">
-                        <div class="text width-100 center green">
-                          Wi-fi Incluso
-                        </div>
-                        <hr class="gradient-left-blue">
                         <div class="column">
-                          <div class="row width-100 justify-center" style="color: black;">
-                            <h1>R$1200</h1>
-                            <h3 class="green">/mês</h3>
+                          <div class="row justify-center" style="margin: 10px 0 0 5px;">
+                            <button class="button width-50 gradient-left-blue">Assinar Agora</button>
+                            <button class="button width-50 gradient-right-blue">Saiba Mais</button>
                           </div>
                         </div>
                       </div>
-                      <div class="column">
-                        <div class="row justify-center" style="margin: 10px 0 0 5px;">
-                          <button class="button width-50 gradient-left-blue">Assinar Agora</button>
-                          <button class="button width-50 gradient-right-blue">Saiba Mais</button>
-                        </div>
-                      </div>
+                     
+                      <div class="column"></div>
+                      <div class="column"></div>
                     </div>
-                   
-                    <div class="column"></div>
-                    <div class="column"></div>
-                  </div>
-                  
-                  <!--PRÓXIMO-->
-                  <button>></button>
+
                 </div>
               </div>
         </div>
       </section>
       
-      <section class="benefit">
-        <div class="text-center">
-            <h1>Benefícios</h1>
-            <h2>Infortec - Soluções em Tecnologia</h2>
+      <section class="benefit padding-2rem">
+        <div class="text-center color-black">
+          <h1>Benefícios</h1>
+          <h2  class="gradient-text-right-blue">Infortec - Soluções em Tecnologia</h2>
         </div>
 
-        <div class="row">
-          <div class="column">
-            <div class="row">
-              <img src="./assets/images/benefits/" alt="Rápida Instalação" class="img-icon" />
-              <h3>Rápida Instalação</h3>
+        <div class="row justify-center">
+          <div class="card-benefit column gradient-left-blue text-end">
+            <div class="row align-center space-between text-end">
+              <img src="./assets/images/benefits/fast.png" alt="Rápida Instalação" class="img-icon" />
+              <h3>Rápida <br> Instalação</h3>
             </div>
+            <div></div>
             <p>
               Ao nos contratar, seu contrato é rapidamente analisado para que o
               mais rápido possível você psosa aproveitar de nossos serviços.
             </p>
           </div>
-          <div class="column">
-            <div class="row">
-              <img src="" alt="Internet via satélite" class="img-icon" />
-              <h3>Internet via satélite</h3>
+          <div class="card-benefit column gradient-left-blue text-end">
+            <div class="row align-center space-between text-end">
+              <img src="./assets/images/benefits/signal.png" alt="Internet via satélite" class="img-icon" />
+              <h3>Internet <br> via satélite</h3>
             </div>
+            <div></div>
             <p>
               Acessível e rápida instalação, com um alcançe que vai até as zonas
               rurais ou lugares mais remotos.
             </p>
           </div>
-          <div class="column">
-            <div class="row">
-              <img src="" alt="Rápida Instalação" class="img-icon" />
-              <h3>Preços Acessíveis</h3>
+          <div class="card-benefit column gradient-left-blue text-end">
+            <div class="row align-center space-between">
+              <img src="./assets/images/benefits/price.png" alt="Rápida Instalação" class="img-icon" />
+              <h3>Preços <br> Acessíveis</h3>
             </div>
             <p>
               Com diversos planos, você pode esclher qual deles se encaixa na
@@ -283,11 +292,12 @@
         </div>
       </section>
 
-      <div class="center">
+
+      <div class="justify-center padding-2rem">
         <div class="column-row">
           <section class="questions">
             <h1>Perguntas Frequentes</h1>
-            <h2>Tudo que você precisa saber.</h2>
+            <h2 class="gradient-text-right-blue">Tudo que você precisa saber.</h2>
 
               <div class="column">
                 <div class="column">
@@ -321,10 +331,10 @@
                 </div>
               </div>
           </section>
-          
+        
           <section class="contact">
             <h1>Nossos <br> Contatos</h1>
-            <h2>Como falar conosco</h2>
+            <h2  class="gradient-text-right-blue">Como falar conosco</h2>
             <address>
               Rua Fulano de tal, 1890, Cidade/Estado. <br />
               <br />
@@ -341,7 +351,7 @@
     </div>
     </main>
 
-    <footer class="center text-center">
+    <footer class="justify-center text-center padding-2rem">
       Copyright&copy; 2022, Infortec - Soluções em Tecnologia / CNPJ: 30.806.424/0001-09
     </footer>
 
@@ -352,5 +362,6 @@
 
     <script src="./js/jquery-3.6.0.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./assets/js/flickity.pkgd.min.js"></script>
   </body>
 </html>

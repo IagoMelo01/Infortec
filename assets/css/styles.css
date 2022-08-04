@@ -1,4 +1,3 @@
-
 * {
   margin: 0px;
   padding: 0px;
@@ -12,6 +11,10 @@ html, body {
   background-color: #071828;
 }
 
+body{
+  background-image: url("../images/homePage/Fundo.jpg") no-repeat;
+}
+
 header {
   padding: 20px 15px;
   background-color: black;
@@ -21,184 +24,331 @@ header {
 
 @media screen and (min-width: 590px) {
   .reverse {
-    display: -webkit-flex; /* Safari */
-    -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-flex-direction: row-reverse;
+    /* Safari 6.1+ */
     display: flex;
     flex-direction: row-reverse;
   }
+
   ul {
     display: flex;
   }
+
   li {
     list-style: none;
     padding: 8px;
   }
-  .column-row{
-      display: flex;
-      justify-content: space-between;
+
+  .column-row {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
 .row {
   display: flex;
 }
+
 .column {
   display: flex;
   flex-direction: column;
 }
-.center{
+
+.justify-center {
   display: flex;
   justify-content: center;
 }
-.text-center{
-  text-align: center;
+
+.align-center{
+  display: flex;
+  align-items: center;
 }
 
-h1{
-  font-size: 2em;
+.space-between{
+  justify-content: space-between;
 }
-h2{
+
+.text-start{
+  text-align:start;
+}
+.text-center {
+  text-align: center;
+}
+.text-end{
+  text-align: end;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+h2 {
   font-size: 1.5em;
   font-weight: normal;
 }
-h3{
+
+h3 {
   font-size: 1em;
 }
-h4{
+
+h4 {
   font-size: 0.8em;
 }
 
-hr{
+hr {
   height: 2px;
   border: none;
   border-radius: 3px;
 }
 
-  .width-25{
-    width: 25%;
-  }
+.width-25 {
+  width: 25%;
+}
 
-  .width-50{
-    width: 50%;
-  }
+.width-50 {
+  width: 50%;
+}
 
-  .width-75{
-    width: 75%;
-  }
+.width-75 {
+  width: 75%;
+}
 
-  .width-100{
-    width: 100%;
-  }
+.width-100 {
+  width: 100%;
+}
 
-  .justify-center{
-    justify-content: center;
-  }
+.justify-center {
+  justify-content: center;
+}
 
-  .dark-blue{
-    color: #071828;
-  }
+.dark-blue {
+  color: #071828;
+}
 
-  .light-blue{
-    color: #2a7e95;
-  }
+.light-blue {
+  color: #2a7e95;
+}
 
-  .green{
-    color: #34b060;
-  }
+.green {
+  color: #34b060;
+}
 
-  .gradient-left-blue{
-    background: linear-gradient(to right, #2256be 5%, #3bd041 100%);
-  }
+.color-black{
+  color:black;
+}
 
-  .gradient-right-blue{
-    background: linear-gradient(to left, #2256be 5%, #3bd041 100%);
-  }
+.color-white{
+  color:white;
+}
 
-  .center{
-    text-align: center;
-  }
+.transparent{
+  background-color: transparent;
+}
 
-  .left{
-    text-align: left;
-  }
+.gradient-left-blue {
+  background: linear-gradient(to right, #2256be 5%, #3bd041 100%);
+}
 
-  .text{
-    padding: 5px;
-    font-weight: 600;
-  }
+.gradient-text-left-blue {
+  background: linear-gradient(to right, #2256be 5%, #3bd041 100%);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-  .card{
-    width: 20rem;
-    display: flex;
-  }
+.gradient-right-blue {
+  background: linear-gradient(to left, #2256be 5%, #3bd041 100%);
+}
 
-  .card-body{
-    background-color: white;
-    margin-left: 5px;
-    padding: 20px;
-    border-radius: 0 0 10px 10px;
-  }
+.gradient-text-right-blue{
+  background-image: linear-gradient(to left, #2256be 5%, #3bd041 100%);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-  .gbPlano{
-    padding: 10px;
-    border-radius: 10px;
-    width: 15rem;
-    position:absolute;
-  }
+.align-center{
+  align-content: center;
+}
 
-  .gbPlano h1{
-    font-weight: 500;
-    color: #000;
-  }
+.center {
+  text-align: center;
+}
 
-  .plano{
-    width: 5.75rem;
-    text-align: end;
-    margin-top: 10px;
-    margin-left: 14.25rem;
-    padding: 5px;
-    background-color: white;
-    border-radius: 0 10px 0 0;
-  }
+.left {
+  text-align: left;
+}
 
-  .button{
-    padding: 10px;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    border: none;
-    margin: 5px;
-  }
+.img-logo{
+  width: 15%;
+  margin: 0;
+}
 
-  .contact, .questions{
-    display:flex;
-    flex-direction: column;
-    width:100%;
-    align-items:start;
-    text-align:start;
-  }
+.text {
+  padding: 5px;
+  font-weight: 600;
+}
 
-  .card-question{
-    border-radius: 5px;
-    text-align: left;
-    padding:5px 5px;
-    margin: 3px 3px;
-  }
+.about{
+  background-color: white;
+  color: black;
+}
 
-  .margin-left-10{
-    margin-left: 10px;
-  }
-  
-  .img-icon{
-    height: 3em;
-    width: 3em;
-    margin:5px;
-  }
+.plans{
+  padding: 100px 0;
+  height: fit-content;
+}
+
+.card {
+  width: 20rem;
+  display: flex;
+}
+
+.card-body {
+  background-color: white;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 10px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+.gbPlano {
+  padding: 10px;
+  border-radius: 10px;
+  width: 15rem;
+  position: absolute;
+}
+
+.gbPlano h1 {
+  font-weight: 500;
+  color: #000;
+}
+
+.plano {
+  width: 5.75rem;
+  text-align: end;
+  margin-left: 12.25rem;
+  padding: 5px;
+  background-color: white;
+  border-radius: 0 10px 0 0;
+  background-image: linear-gradient(to top, #2256be 5%, #3bd041 100%);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* Adicionado: */
+  -webkit-text-fill-color: transparent;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  color:white;
+  font-weight: bold;
+  border: none;
+  margin: 5px;
+}
+
+.benefit {
+  background-image: url('../images/benefits/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
 
-  footer {
-    text-align: center;
-    padding: 20px;
-    color: white;
-    font-size: 0.8em;
+.card-benefit {
+  border-radius: 20px;
+  max-width: 25%;
+  height: 200px;
+  margin: 1.5%; padding: 1%;
+}
+
+.contact, .questions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: start;
+  text-align: start;
+}
+
+.card-question {
+  border-radius: 5px;
+  text-align: left;
+  padding: 5px 5px;
+  margin: 3px 3px;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.padding-2rem{
+  padding:2rem;
+}
+
+.padding-top-bottom-1rem{
+  padding:1rem 0rem;
+}
+
+.img-icon {
+  height: 3em;
+  width: 3em;
+  margin: 5px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 0.8em;
+}
+
+
+
+
+
+
+/* Testes carrossel */
+
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.gallery {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.gallery-cell {
+  width: fit-content;
+  height: fit-content;
+  margin-right: 160px;
+  counter-increment: gallery-cell;
+  filter:blur(2px) brightness(.7);
+}
+
+.gallery-cell.is-selected {
+  filter: brightness(1);
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+}
+
+.flickity-page-dots{
+  display: none;
 }
